@@ -19,6 +19,9 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Elisiei Yehorovye</title>
+</svelte:head>
 <div class="flex h-screen flex-col gap-3">
 	<div class="flex gap-2">
 		<h1 class="text-2xl font-semibold">Elisiei Yehorov</h1>

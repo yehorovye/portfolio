@@ -6,6 +6,10 @@
 	const { title, description, date } = data.frontmatter;
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+	<meta name="description" content={description} />
+</svelte:head>
 <div class="flex flex-col gap-4">
 	<a href="/" class="flex items-center gap-2 underline">
 		<svg

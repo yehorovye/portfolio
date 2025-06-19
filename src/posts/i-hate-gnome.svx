@@ -1,0 +1,38 @@
+---
+title: 'I fucking hate GNOME'
+description: 'a raw speech expressing how much i hate gnome'
+date: 2025-06-19
+published: true
+---
+
+i hate gnome. i’ve tried using it, i really have. every couple of months i think, "maybe it’s gotten better," and every time, i end up staring at a blank screen wondering why i did this to myself again.
+
+## it's bloated trash
+
+why does a desktop environment need to chew through 2gb of ram doing literally nothing? this isn’t a video game, it’s not rendering a 3d world, it’s showing me a couple of windows and a top bar. and it still manages to feel laggy on hardware that can run cyberpunk.
+
+## gnome devs hate you
+
+[they don't care about accessibility](https://tesk.page/2025/06/18/its-true-we-dont-care-about-accessibility-on-linux)
+they don’t want you to tweak it. they don’t want you to configure it. they don’t want you to touch anything. they ripped out features people liked and said "deal with it." no minimize button by default? no tray icons? who asked for this?
+
+## extensions are duct tape
+
+"just use extensions" they say. cool, let me balance a pile of spaghetti on a wobbly chair made of javascript and pray every update doesn’t break half of them. gnome updates are like russian roulette for your desktop setup. click… click… bang. back to default hell.
+
+## it doesn’t feel like linux
+
+it feels like an ipad simulator for people who are afraid of right clicks. linux is about control. gnome is about taking it away and smiling at you like you should be thankful.
+
+## a bunch of soydevs made it
+
+i hate soydevs as much as i hate systemd, really.
+
+## alternatives for this garbage
+
+- xfce: lightweight, simple, fast. it doesn’t look like much out of the box, but it respects you. everything is configurable. nothing gets in your way. completely based desktop.
+- plasma: looks good, even tho it has pretty much bloat.
+
+tldr: anything is better than gnome shit.
+
+thanks gnome for being shit.

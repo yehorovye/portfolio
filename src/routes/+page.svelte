@@ -71,7 +71,7 @@
 				>
 					<div class="flex flex-col">
 						<h3>{post.title}</h3>
-						<p class="text-xs truncate max-w-sm">
+						<p class="text-xs truncate max-w-md">
 							{post.description}
 						</p>
 					</div>

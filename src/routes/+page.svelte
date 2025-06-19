@@ -132,4 +132,12 @@
 			{/each}
 		{/if}
 	</div>
+	<div class="flex items-center justify-between py-5">
+		<p
+			class="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent"
+		>
+			Elisiei Yehorovye
+		</p>
+		<p class=" italic">this website does not rely in javascript</p>
+	</div>
 </div>

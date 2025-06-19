@@ -1,0 +1,46 @@
+---
+title: 'I fucking hate systemd'
+description: 'A brutally honest rant about how systemd ruins everything it touches, from your boot to your system itself'
+date: 2025-06-19
+published: true
+---
+
+# why i fucking hate systemd
+
+*"If this is the solution, I want my problem back."*
+no quote has ever hit harder.
+
+systemd is a cancer. plain and simple. it's a bloated, arrogant mess that infects everything it touches. you install linux expecting freedom, modularity, control. instead you get this overgrown corporate turd shoving its tentacles into every part of your system like it's entitled to be there.
+
+i don't want an init system that thinks it should manage my dns, my logging, my user sessions, my fucking coffee machine. i want an init system that *starts the damn system* and gets out of the way. systemd can't even do that without choking on its own complexity.
+
+# everything it touches turns to shit
+
+everywhere it goes, it leaves a trail of destruction. updates break systems. services fail silently. logging randomly disappears. boot times become a lottery. the moment you let systemd run your show, you're not running linux anymore  you're running **linux™**, the Red Hat cinematic universe version.
+
+and the bugs. jesus christ, the bugs.
+
+* services going mute after a journal restart
+* pid1 crashing and looping because of a timezone change
+* background processes nuked the moment you log out
+* multi‑million dollar outages because some developer decided to YOLO a patch into the mainline
+
+this isn't rare. this isn't bad luck. this is what you get when you hand over the keys to a lumbering, monolithic, control‑freak of a daemon that wants to be emperor of your box.
+
+# it's a fucking cult
+
+you ever try questioning systemd? you get dogpiled by neckbeards screaming "modern" like it's a magic word. as if "modern" justifies stupid design decisions, unreadable logs, binary journal files, and spontaneous process terminations.
+
+they treat criticism like heresy. systemd is their sacred cow, and you're the crazy one for wanting *things to work*. forget actual system behavior, forget logs that make sense, forget predictability  all that matters is that systemd is "the future." fuck the future if that's what it looks like.
+
+# unix is dead and systemd killed it
+
+remember "do one thing and do it well"? systemd does fifty things and fucks them all up. it turned a clean, understandable, composable OS into an incomprehensible mess of units, scopes, slices, targets, and magic dependencies that explode if you breathe on them wrong.
+
+you can't even switch it out anymore. half the major distros are so deep in the systemd quicksand that trying to remove it is like trying to amputate your own spine. that's not software  that's a hostage situation.
+
+# how to not be a victim
+
+you want to run a real system? ditch systemd. rip it out. or better yet, run a distro that never touched that garbage in the first place. stop being a boot‑time cuck and take back your machine. stop letting this roach daemon run your life. start using software that respects you.
+
+because systemd sure as hell doesn't.

@@ -1,18 +1,10 @@
 import { json } from '@sveltejs/kit';
 import { slugFromPath } from '$lib';
+import type { BlogPost } from '../../../types/common';
 
 interface MdsvexFile {
 	default: any;
 	metadata: Record<string, any>;
-}
-
-interface Post {
-	slug: string;
-	title: string;
-	description: string;
-	date: string;
-	published: boolean;
-	[key: string]: any;
 }
 
 export const prerender = true;
@@ -20,7 +12,7 @@ export const prerender = true;
 export async function GET() {
 	const modules = import.meta.glob<MdsvexFile>('/src/posts/*.{md,svx,svelte.md}');
 
-	const postPromises: Promise<Post>[] = [];
+	const postPromises: Promise<BlogPost>[] = [];
 
 	for (const [path, resolver] of Object.entries(modules)) {
 		const slug = slugFromPath(path);
@@ -29,7 +21,7 @@ export async function GET() {
 				slug,
 				...post.metadata
 			};
-		}) as Promise<Post>;
+		}) as Promise<BlogPost>;
 
 		postPromises.push(promise);
 	}

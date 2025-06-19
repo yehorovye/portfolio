@@ -1,30 +1,22 @@
 import { slugFromPath } from '$lib';
 import { dev } from '$app/environment';
+import type { BlogPost, Repo } from '../types/common';
 
 export const prerender = true;
 export const csr = dev;
-
-interface Post {
-	slug: string;
-	title: string;
-	description: string;
-	date: string;
-	published: boolean;
-	[key: string]: any;
-}
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function load() {
 	const modules: Record<string, () => any> = import.meta.glob('/src/posts/*.{md,svx,svelte.md}');
 
-	const postPromises: Promise<Post>[] = [];
+	const postPromises: Promise<BlogPost>[] = [];
 
 	for (const [path, resolver] of Object.entries(modules)) {
 		const slug = slugFromPath(path);
 		const promise = resolver().then((post: any) => ({
 			slug,
 			...post.metadata
-		})) as Promise<Post>;
+		})) as Promise<BlogPost>;
 
 		postPromises.push(promise);
 	}
@@ -34,5 +26,13 @@ export async function load() {
 
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
-	return { posts: publishedPosts };
+	const { repos } = (await fetch('https://ungh.cc/users/yehorovye/repos').then((x) =>
+		x.json()
+	)) as {
+		repos: Repo[];
+	};
+
+	const popularRepos = repos.sort((a, b) => b.stars - a.stars).slice(0, 5);
+
+	return { posts: publishedPosts, repos: popularRepos };
 }

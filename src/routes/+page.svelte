@@ -1,7 +1,7 @@
 <script lang="ts">
 	/** @type {any} */
 	export let data;
-	const { posts } = data;
+	const { posts, repos } = data;
 
 	const findMe = [
 		{
@@ -23,9 +23,16 @@
 	<title>Elisiei Yehorovye</title>
 </svelte:head>
 <div class="flex h-screen flex-col gap-3">
-	<div class="flex gap-2">
-		<h1 class="text-2xl font-semibold">Elisiei Yehorov</h1>
-		<h1 class="text-xl font-normal text-zinc-500 italic">~yehorovye</h1>
+	<div
+		class="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text font-mono text-xs leading-none text-transparent md:text-lg"
+	>
+		<pre>
+    _________      _      _    __  __     __
+   / ____/ (_)____(_)__  (_)   \ \/ /__  / /_  ____  _________ _   __
+  / __/ / / / ___/ / _ \/ /     \  / _ \/ __ \/ __ \/ ___/ __ \ | / /
+ / /___/ / (__  ) /  __/ /      / /  __/ / / / /_/ / /  / /_/ / |/ /
+/_____/_/_/____/_/\___/_/      /_/\___/_/ /_/\____/_/   \____/|___/
+  </pre>
 	</div>
 	<div class="flex items-center gap-1">
 		<p>Software developer from Minsk.</p>
@@ -67,12 +74,44 @@
 			{#each posts as post}
 				<a
 					href={`/blog/${post.slug}`}
-					class="flex cursor-pointer items-center justify-between gap-5 bg-zinc-900 p-3 duration-150 hover:scale-[1.02] hover:-rotate-1 hover:text-purple-200! hover:underline"
+					class="flex cursor-pointer items-center justify-between gap-5 bg-zinc-900 p-3 duration-150 hover:scale-[1.02] hover:-rotate-[0.5deg] hover:text-purple-200! hover:underline"
 				>
 					<div class="flex flex-col">
 						<h3>{post.title}</h3>
-						<p class="text-xs truncate max-w-md">
+						<p class="max-w-md truncate text-xs">
 							{post.description}
+						</p>
+					</div>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="size-4"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+						/>
+					</svg>
+				</a>
+			{/each}
+		{/if}
+	</div>
+	<h1 class="text-xl">popular repos</h1>
+	<div class="grid grid-cols-1 gap-2">
+		{#if repos}
+			{#each repos as repo}
+				<a
+					href={`https://github.com/${repo.repo}`}
+					class="flex cursor-pointer items-center justify-between gap-5 bg-zinc-900 p-3 duration-150 hover:scale-[1.02] hover:-rotate-[0.5deg] hover:text-purple-200! hover:underline"
+				>
+					<div class="flex flex-col">
+						<h3>{repo.name}</h3>
+						<p class="max-w-md truncate text-xs">
+							{repo.description}
 						</p>
 					</div>
 					<svg

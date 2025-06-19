@@ -44,3 +44,5 @@ you can't even switch it out anymore. half the major distros are so deep in the 
 you want to run a real system? ditch systemd. rip it out. or better yet, run a distro that never touched that garbage in the first place. stop being a boot‑time cuck and take back your machine. stop letting this roach daemon run your life. start using software that respects you.
 
 because systemd sure as hell doesn't.
+
+![Yuzucchii speaking facts](https://zicktron-has.no-friends.xyz/r/q48liA4DnM.png)

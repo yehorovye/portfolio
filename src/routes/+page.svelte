@@ -71,7 +71,7 @@
 				>
 					<div class="flex flex-col">
 						<h3>{post.title}</h3>
-						<p class="text-xs">
+						<p class="text-xs truncate max-w-sm">
 							{post.description}
 						</p>
 					</div>
@@ -81,7 +81,7 @@
 						viewBox="0 0 24 24"
 						stroke-width="1.5"
 						stroke="currentColor"
-						class="mx-auto size-4"
+						class="size-4"
 					>
 						<path
 							stroke-linecap="round"

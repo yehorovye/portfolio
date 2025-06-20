@@ -69,6 +69,12 @@
 		{/each}
 	</ul>
 	<h1 class="text-xl">blog posts</h1>
+	<p class="text-sm font-thin text-amber-400 italic">
+		This is a website of someone who is not brainwashed. Since you are brainwashed (despite thinking
+		you are not), everything written here will be in 100% conflict with everything you have ever
+		learned or thought was just plain, unquestionable fact. Read on only if you can bear full
+		cognitive dissonance, otherwise it's advised for you to leave.
+	</p>
 	<div class="grid grid-cols-1 gap-2">
 		{#if posts}
 			{#each posts as post}

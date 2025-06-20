@@ -11,7 +11,7 @@
 	<meta name="description" content={description} />
 </svelte:head>
 <div class="flex flex-col gap-4">
-	<a href="/" class="flex items-center gap-2 underline">
+	<a href="/" class="sticky top-0 flex w-fit items-center gap-2 backdrop-blur-lg">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"

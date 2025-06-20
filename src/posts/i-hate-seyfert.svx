@@ -1,0 +1,55 @@
+---
+title: 'I fucking hate Seyfert'
+description: 'a raw speech expressing how much i hate seyfert'
+date: 2025-06-99
+published: true
+---
+
+let's dissect this fucking shit ""framework"" for the [Discord](/blog/i-hate-discord)'s API
+
+Seyfert [claims to be better than Discord.js](https://github.com/tiramisulabs/seyfert/issues/174) yet they didn't prove **shit**
+about it
+
+i guess we'll have to take their word on this—or not—.
+
+### the discord.js vs seyfert drama
+
+long time ago, Seyfert *stated* that [Discord.js](https://discord.js.org/) *and [Sapphire](https://sapphirejs.dev/)* were **deprecated**
+
+so now, if we lookup ["deprecated" meaning](https://en.wikipedia.org/wiki/Deprecation), we'll encounter that it means *"to express disapproval of (something)"*
+ok, that doesn't seem that bad, does it? no, but that is not the meaning we are looking for
+
+for this we need the meaning for software-related stuff.
+
+> While a deprecated software feature remains in the software, its use may raise warning messages recommending alternative practices.
+> Deprecated status may also indicate the feature will be removed in the future.
+> Features are deprecated, rather than immediately removed, to provide backward compatibility and to give programmers time to bring affected code into compliance
+> with the new standard.
+*From wikipedia*
+
+yeah, basically Seyfert stated that Discord.js *and Sapphire* were ***unused***,
+outrageous, isn't it?
+
+### their shitty community
+
+they didn't had enough by being completely retarded, they also are dickheads, the maintainers and the community itself.
+
+i honestly feel bad with them being such some attention whores, it's just sad.
+
+they will fucking rape you if you dare to ask for the minimum help in their Discord server.
+
+undesirable behavior.
+
+### mediocre developers
+
+Seyfert developers are mediocre to the core.
+every release feels like it's half-made, lacking any type of etiquette and being a complete mess that will require
+14 commits right after to be fixed.
+
+Seyfert maintainers have mastered *somehow* the archaic art of delivering software
+that is simultaneously overengineered and underwhelming.
+
+it's like the developers stared at Discord's API, and if Discord API wasn't bad enough, they took a deep breath, and said "Let's make this even worse".
+
+### :)
+> this is a joke post.

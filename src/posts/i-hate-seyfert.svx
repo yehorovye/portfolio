@@ -25,6 +25,7 @@ for this we need the meaning for software-related stuff.
 > Deprecated status may also indicate the feature will be removed in the future.
 > Features are deprecated, rather than immediately removed, to provide backward compatibility and to give programmers time to bring affected code into compliance
 > with the new standard.
+
 *From wikipedia*
 
 yeah, basically Seyfert stated that Discord.js *and Sapphire* were ***unused***,

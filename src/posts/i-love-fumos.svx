@@ -1,11 +1,11 @@
 ---
 title: 'I fucking love Fumos'
 description: 'a raw speech expressing how much i love Fumos'
-date: 2025-06-20
+date: 2025-06-22
 published: true
 ---
 
-<em class="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text font-mono text-xs leading-none text-transparent">
+<em class="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
 ⠀⠀⠀⣠⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠀⠀
 ⠀⠀⡜⠁⠀⠈⢢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠋⠷⠶⠱⡄
 ⠀⢸⣸⣿⠀⠀⠀⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠫⢀⣖⡃⢀⣸⢹

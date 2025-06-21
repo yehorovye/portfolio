@@ -7,7 +7,7 @@ published: true
 
 i'll continue with these "I hate..." posts, i find it funny.
 
-##3 it's a type system cult
+### it's a type system cult
 
 you can’t write hello world without the compiler breathing down your neck. oh you used a string? wrong string. oh you cloned? shouldn't have cloned. oh you didn't clone? why not clone? you spend 90% of your time fighting the borrow checker and 10% writing actual code. and then people act like this is a *good thing*.
 

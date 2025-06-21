@@ -1,0 +1,44 @@
+---
+title: 'I fucking hate Rust'
+description: 'a raw speech expressing how much i hate rust'
+date: 2025-06-21
+published: true
+---
+
+i'll continue with these "I hate..." posts, i find it funny.
+
+## it's a type system cult
+
+you can’t write hello world without the compiler breathing down your neck. oh you used a string? wrong string. oh you cloned? shouldn't have cloned. oh you didn't clone? why not clone? you spend 90% of your time fighting the borrow checker and 10% writing actual code. and then people act like this is a *good thing*.
+
+## the compiler is a sadist
+
+the rust compiler doesn’t help you, it *tests* you. like some kind of dominatrix AI whispering "you’re not worthy yet" every time you hit build. "oh you wanted to mutate this variable across a thread safely?" hope you like writing a novel in lifetimes, traits, and `Arc<Mutex<Option<Whatever>>>` hell.
+
+## rustaceans are insufferable
+
+every forum, every thread, every git issue, some rust fanboy is waiting to tell you how you’re Doing It Wrong™ and how you should be grateful to be beaten into submission by their beautiful language. they treat rust like a religion. a cargo cult, literally. you’re not writing code, you’re becoming *enlightened*.
+
+## it’s not fast, it’s just painful
+
+people act like rust is magically fast. it’s not. it’s fast because it forces *you* to be a compiler engineer. writing low-level C is faster, simpler, and doesn’t require a doctorate in type theory. rust just makes you prove to the compiler that you’re worthy of touching memory.
+
+## "memory safety" is a cope
+
+yeah, cool, no segfaults, but you’ll still write the same dumb logic errors like any other language. you just spent 8 hours fighting the borrow checker to end up with a program that still doesn’t do what it’s supposed to. but hey, at least it didn’t segfault, right? right??
+
+## it's made by soydevs and trannies
+
+have you seen rustconf? enough said. it's all corporate techbros (or trannies) high on types and functional purity trying to reinvent C++ but with more steps.
+
+## alternatives for this garbage
+
+* C: the king. simple, lean, does what you tell it to. gives you full control and doesn’t whine. the language of real programmers.
+* Zig: unreadable fucking shit, but still, this garbage is better than Rust.
+* V: nice idea, but still trying to grow up. cute syntax, but not battle-tested like C.
+
+tldr: rust is a cargo cult masquerading as a systems language. it wastes your time and your sanity.
+
+please, quit using rust.
+
+> this post was taken from my phone's notes

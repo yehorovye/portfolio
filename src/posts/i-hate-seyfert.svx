@@ -1,7 +1,7 @@
 ---
 title: 'I fucking hate Seyfert'
 description: 'a raw speech expressing how much i hate seyfert'
-date: 2025-06-99
+date: 2025-06-21
 published: true
 ---
 
